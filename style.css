@@ -185,3 +185,55 @@ header{
         font-size: 20px;
     }
 }
+
+/*search box*/
+.search-box{
+    border: solid 1px #d85c5c;
+    margin-top: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 2px 3px #d85c5c;
+}
+.search-box input{
+    padding: 10px;
+}
+.search-box select{
+    padding: 10px;
+}
+.search-box button{
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+}
+.search-box button:hover{
+    background-color: #000;
+    color: #fff;
+    box-shadow: 1px 2px 3px #fff;
+}
+/*search for phones*/
+@media screen and (max-width: 460px){
+    .search-box input, .search-box button, .search-box select{
+        min-width: 300px;
+        margin-top: 5px;
+    }
+}
+
+/*forum info*/
+.forum-info{
+    padding: 20;
+    background-color: #191b1b;
+}
+.chart{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*footer*/
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #191b1b;
+    display: block;
+    text-align: center;
+}
