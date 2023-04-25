@@ -299,3 +299,89 @@ footer{
 .pagination a:hover{
     opacity: 0.5;
 }
+
+.navigate{
+    margin-block: 20px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+.navigate a:hover{
+    color: #d85c5c;
+    font-weight: bolder;
+}
+
+/*note*/
+.note{
+    background-color: #191b1b;
+    padding: 20px;
+    display: block;
+}
+.note span{
+    font-size: 20px;
+    margin-block: 5px;
+}
+
+/*####################*/
+/*detail.html*/
+
+.head{
+    display: flex;
+    background-color: #191b1b;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.authors{
+    flex: 20%;
+}
+.content{
+    flex: 80%;
+}
+.body{
+    display: flex;
+    background-color: #252525;
+    padding: 10px;
+    margin-top: 5px;
+}
+.body .authors .username{
+    font-size: 20px;
+}
+.body .authors img{
+    max-width: 50px;
+    max-height: 50px;
+}
+.body .content .comment button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    box-shadow: 4px 4px #fff;
+    cursor: pointer;
+    float: right;
+}
+.body .content .comment button:hover{
+    background-color: #b8b8b8;
+}
+
+/*comment*/
+.comment-area{
+    margin-top: 50px;
+}
+.comment-area textarea{
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    margin-block: 10px;
+}
+.comment-area input{
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.comment-area input:hover{
+    border: solid 1px #000;
+}
+.comments-container{
+    margin-top: 50px;
+}
